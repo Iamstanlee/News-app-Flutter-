@@ -1,0 +1,38 @@
+name: News
+description: A News App.
+version: 1.0.0+2
+
+environment:
+ sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+ flutter:
+  sdk: flutter
+ cupertino_icons: ^0.1.2
+ unicorndial: ^1.1.5
+ http: ^0.12.0
+ webview_flutter: ^0.3.9+1
+ timeago: ^2.0.22
+ share:
+  git:
+   url: https://github.com/d-silveira/flutter-share.git
+
+dev_dependencies:
+ flutter_test:
+  sdk: flutter
+flutter:
+ uses-material-design: true
+ assets:
+  - lib/assets/na.jpg
+  - lib/assets/search.png
+  - lib/assets/loading.gif
+ fonts:
+  - family: BRFirma
+    fonts:
+     - asset: lib/assets/fonts/BRFirma-Regular.ttf
+  - family: OperatorBold
+    fonts:
+     - asset: lib/assets/fonts/OperatorBold.otf
+  - family: Facit
+    fonts:
+     - asset: lib/assets/fonts/Facit-Regular.otf
